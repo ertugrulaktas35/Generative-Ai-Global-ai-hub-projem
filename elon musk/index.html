@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portföy</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Reset CSS */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        header, footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+        }
+
+        header nav ul {
+            list-style: none;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        section {
+            flex: 3;
+            padding-right: 20px;
+        }
+
+        aside {
+            flex: 1;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .item {
+            flex: 1;
+            margin-bottom: 20px;
+        }
+
+        .item img {
+            width: 100%;
+            height: auto;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Portföy</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Anasayfa</a></li>
+            <li><a href="https://toptalent.co/tesla-ceosu-elon-muskin-cvsi">Hakkımda</a></li>
+            <li><a href="https://twitter.com/elonmusk">İletişim</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section>
+        <h2>Örnek Çalışmalar</h2>
+        <div class="gallery">
+            <div class="item">
+                <img src="_c496089c-e9d2-48fe-a75c-477fa80a074d.jpg" alt="Resim Açıklaması">
+                <p>SpaceX - Uzay Taşımacılığı</p>
+            </div>
+            <div class="item">
+                <img src="tesla araba.jpeg" alt="Resim Açıklaması">
+                <p>Tesla - Elektrikli Araçlar</p>
+            </div>
+            <div class="item">
+                <img src="neurolink.jpg" alt="Resim Açıklaması">
+                <p>Neuralink - Beyin Bilgisayar Arayüzleri</p>
+            </div>
+        </div>
+    </section>
+
+    <aside>
+        <h2>Hakkımda</h2>
+        <p>Elon Musk, Tesla, SpaceX ve Neuralink gibi şirketlerin kurucusu ve CEO'sudur. Teknoloji girişimcisi ve mühendislik dahisi olarak tanınır. Yenilikçi çözümleriyle uzay keşfi, elektrikli araçlar ve yapay zeka alanlarında öncüdür.</p>
+    </aside>
+</main>
+
+<footer>
+    <p>Telif Hakkı &copy; 2024 Portföy. Tüm Hakları Saklıdır.</p>
+</footer>
+
+</body>
+</html>
+<!-- Resim Promptlarım (Microsoft Copilot'u kullandım)
+1-)Rocket in the sky carrying people
+2-)Neurolink and a human
+3-)bir iş insanı, mühendis ve mucit teknoloji alanında çalışıyor Tesla ve elektrikli araçlar büyük araba
+Html Css Promptlarım(Chatgpt 3.5 kullandım)
+1-) bir portföy HTML CSS şablonu. Bu şablon. Örnek çalışmalarımızı görseller ve sütunlar kullanılarak yapıladırılsın. 
+sayfa responsive olsun. HTML yapısında,
+semantik etiketlerin(header, main, nav, section, article, aside, footer) kullanılması beklenmektedir
+2-) Belirttiğin kodda İletişim kısmındaki bağlantıya tıkladığımızda https://twitter.com/elonmusk adresine yollacayacak
+Hakkımda kısmına bastığımda ise https://toptalent.co/tesla-ceosu-elon-muskin-cvsi bu linke yönlendirsin
+kodları bu şekilde bozmadan tekrar yazar mısın?
+
+
+
+ -->
